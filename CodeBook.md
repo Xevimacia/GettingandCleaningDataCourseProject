@@ -12,7 +12,7 @@ run_analysis.R script is structured as explained below (by comments):
 * Write Tidy Data to TXT
 
 ## Load Libraries
-Load data.table library for reading the data and reshape2 tool for melt() and dcast() operations.
+Load data.table library for reading the data and reshape2 library to use melt() and dcast() operations.
 
 ## Load "Features" and "Activity_labels" Data Sets
 Read second column of "features.txt", which contains the information of the column names of "x_test" and "x_train".
