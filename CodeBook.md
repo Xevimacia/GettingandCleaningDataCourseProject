@@ -22,7 +22,7 @@ Read second column of "activity_labels", which contains the descriptive informat
   * WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING
 
 ## Load and Manipulate "Test" Data Sets
-* Read dataset files from UCI HAR to given name ("test") and prefix ("X", "y" and "subject").
+* Read dataset files from UCI HAR Dataset to given name ("test") and prefix ("X", "y" and "subject").
   Examples:
     * UCI HAR Dataset/test/X_test.txt
     * UCI HAR Dataset/test/y_test.txt
@@ -32,7 +32,7 @@ Read second column of "activity_labels", which contains the descriptive informat
 * Bind all the 3 data sets by column in the following order "subject_test", "y_test" and "x_test"
 
 ## Load and Manipulate "Train" Data Sets
-* Read dataset files from UCI HAR to given name ("train") and prefix ("X", "y" and "subject").
+* Read dataset files from UCI HAR Dataset to given name ("train") and prefix ("X", "y" and "subject").
   Examples:
     * UCI HAR Dataset/train/X_train.txt
     * UCI HAR Dataset/train/y_train.txt
