@@ -11,6 +11,3 @@ I have created a script called run_analysis.R, which contains the code that perf
 3. Write the output data to a TXT file in the working directory
  
 The CodeBook.md has more detailed information about how the script works.
-
-## Run the command below to download the ouput data to your R studio and explore the final output
-
