@@ -43,7 +43,10 @@ Read second column of "activity_labels", which contains the descriptive informat
  
 ##  Merge "Test" and "Train" Data Sets and Create Tidy Data File
 * Define ID variables ("subject", "activity_id", "activity_Label") and measured variables (= remove id_variables) for the melt function
-* Use melt function to convert wide data to long data. Used to calculate mean by subject, activity level ("LAYING","SITTING",etc) and features ("tBodyAcc-mean()-X", "tBodyAcc-mean()-Y",etc) data using dcast() function
+* Use melt function to convert wide data to long data. Used to calculate mean using dcast() function by:
+     * subject
+     * activity label ("LAYING","SITTING",etc)
+     * features ("tBodyAcc-mean()-X", "tBodyAcc-mean()-Y",etc)
 
 The final data tidy looks like below:
 
